@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.godohosting.heocube.tutorial1.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="372dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="first num"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="372dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="second num"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="58dp" />
+
+    <Button
+        android:id="@+id/Addbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="plus"
+        android:onClick="addClick"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <Button
+        android:id="@+id/Subbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sub"
+        android:onClick="subClick"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <Button
+        android:id="@+id/MultiButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Multi"
+        android:onClick="multiClick"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <Button
+        android:id="@+id/dividebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="divide"
+        android:onClick="divideClick"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="370dp"
+        android:layout_height="44dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="168dp" />
+</android.support.constraint.ConstraintLayout>
